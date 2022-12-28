@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+}
+.carouselExampleCaptions{
+    
+}
+.carousel-inner img {
+    width: 100%;
+    max-height: 500px;
+}
+.carousel-inner{
+    height: 500px;
+   }
+
+footer{
+    width: 100%;
+    height: auto;
+}
