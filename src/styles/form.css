@@ -1,0 +1,11 @@
+body{
+    display: grid;
+}
+.form{
+   display: grid;
+    gap: 5px;
+    padding: 2%;
+}
+.table{
+   margin: 2%;
+}

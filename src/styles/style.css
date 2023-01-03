@@ -17,6 +17,9 @@ footer{
     height: auto;
 }
 
+.card mb-4{
+    display: flex;
+}
 .card-img-top{
     margin-top: 7%;
     width: 40%;
