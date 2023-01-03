@@ -14,4 +14,13 @@ form.addEventListener('submit', function(event){
     newCell.textContent = transactionFormData.get("surname")
     newCell = newRow.insertCell(3);
     newCell.textContent = transactionFormData.get("email")
+
+    let newDeleteCell = newRow.insertCell(4);
+    let deleteButton = document.createElement("button");
+    deleteButton.textContent = "Eliminar"
+    newDeleteCell.appendChild(deleteButton);
+
+    deleteButton.addEventListener("click", (event) => {
+        event.target.parentNode.parentNode.remove()
+    })
 })
