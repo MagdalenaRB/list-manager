@@ -1,5 +1,6 @@
 body{
     display: grid;
+    margin: auto;
 }
 .form{
    display: grid;
@@ -8,4 +9,10 @@ body{
 }
 .table{
    margin: 2%;
+}
+.buttons{
+    display: grid;
+    margin: 2%;
+    gap: 5px;
+    
 }
