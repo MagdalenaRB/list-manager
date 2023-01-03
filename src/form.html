@@ -57,20 +57,20 @@
   <form action="#" class="form" id="form">
     <div class="mb-3">
       <label for="exampleInputName1" class="form-label">Name</label>
-      <input type="text" class="form-control" id="name" name="name">
+      <input type="text" class="form-control" id="name" name="name" required minlength="2" maxlength="20">
     </div>
     <div class="mb-3">
       <label for="exampleInputSurname1" class="form-label">Surname</label>
-      <input type="text" class="form-control" id="exampleInputSurname1" name="surname">
+      <input type="text" class="form-control" id="exampleInputSurname1" name="surname" required minlength="2" maxlength="30">
     </div>
     <div class="mb-3">
       <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
     <div class="mb-3">
       <label for="exampleInputScore1" class="form-label">Score</label>
-      <input type="number" class="form-control" id="exampleInputScore1" name="score">
+      <input type="number" class="form-control" id="exampleInputScore1" name="score" min="0" max="10" step="1">
     </div>
     <button type="submit" class="btn">Submit</button>
   </form>
