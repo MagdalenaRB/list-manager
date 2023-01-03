@@ -34,4 +34,5 @@ form.addEventListener('submit', function(event){
     editButton.addEventListener("click", (event) => {
         event.target.parentNode.parentNode.edit()
     })
+    form.reset();
 })
