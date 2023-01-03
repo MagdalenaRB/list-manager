@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body{
     display: grid;
     margin: auto;
+    cursor: url(../img/icons8-bee-30.png), auto;
+    color: #fff;
+    font-family: 'Lobster';
+
 }
 .form{
    display: grid;
@@ -15,4 +21,19 @@ body{
     margin: 2%;
     gap: 5px;
     
+}
+button {
+    font-family: 'Lobster';
+    background: #804000;
+    color: #fff;
+}
+button.btn {
+    font-family: 'Lobster';
+    background: #804000;
+    color: #fff;
+}
+.navbar {
+    font-family: 'Lobster';
+    background: #804000;
+    color: #fff;
 }

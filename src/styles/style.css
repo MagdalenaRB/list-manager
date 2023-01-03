@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    cursor: url(../img/icons8-bee-30.png), auto;
+}
 .container{
     display: flex;
+    color: #fff;
+    font-family: 'Lobster';
+    
 }
 .carouselExampleCaptions{
     
@@ -26,3 +34,20 @@ footer{
     height: 70%;
 }
 
+button {
+    font-family: 'Lobster';
+    background: #804000;
+    color: #fff;
+    border-style: none;
+    border-radius: 10px;
+}
+.navbar {
+    font-family: 'Lobster';
+    background: #804000;
+    color: #fff;
+}
+footer {
+    font-family: 'Lobster';
+    background: #804000;
+    color: #fff;
+}
