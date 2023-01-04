@@ -1,6 +1,6 @@
 # 👩🏻‍🔬 Testing with Jest
 
-This repo contains some beginner-friendly examples of tested functions for students of Factoria F5 bootcamp.
+This repo contains some beginner-friendly examples of tested functions .
 
 ## Installation
 
