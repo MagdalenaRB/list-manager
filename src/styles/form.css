@@ -1,37 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-body{
+body {
     display: grid;
     margin: auto;
     cursor: url(../img/icons8-bee-30.png), auto;
     color: #fff;
     font-family: 'Lobster';
-
+    background-color: bisque;
 }
-.form{
-   display: grid;
+
+.form {
+    display: grid;
     gap: 5px;
     padding: 2%;
+    background-color: bisque;
 }
-.table{
-   margin: 2%;
+
+.table {
+
+    background-color: bisque;
 }
-.buttons{
+
+.buttons {
     display: grid;
     margin: 2%;
     gap: 5px;
-    
+    background-color: bisque;
+
 }
+
 button {
     font-family: 'Lobster';
     background: #804000;
     color: #fff;
 }
+
 button.btn {
     font-family: 'Lobster';
     background: #804000;
     color: #fff;
 }
+
 .navbar {
     font-family: 'Lobster';
     background: #804000;
