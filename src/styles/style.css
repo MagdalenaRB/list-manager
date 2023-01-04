@@ -24,6 +24,7 @@ footer{
 
 .card mb-4{
     display: flex;
+    font-family: 'Lobster';
     
 }
 .card-img-top{
@@ -50,5 +51,9 @@ footer {
     color: #fff;
 }
 img.card-img-top {
-    size: 0.5rem;
+    
+}
+h5.card-title, p.card-text{
+    font-family: 'Lobster';
+    text-align: center;
 }

@@ -36,3 +36,13 @@ form.addEventListener('submit', function(event){
     })
     form.reset();
 })
+
+let focusRow = null;
+
+function edit(td) {
+    focusRow = td.parentNode.parentNode;
+    textContenttransactionFormData.get("name") = focusRow.cells[0].innerHTML;
+    transactionFormData.get('surname') = focusRow.cells[1].innerHTML;
+    transactionFormData.get('email') = focusRow.cells[2].innerHTML;
+    transactionFormData.get('score') = focusRow.cells[2].innerHTML;
+}
