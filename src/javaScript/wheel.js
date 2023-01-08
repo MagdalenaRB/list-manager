@@ -110,4 +110,5 @@ function random_color(){
     
     return color;
   };
-  export { random_color };
+
+  /* export { random_color }; */
