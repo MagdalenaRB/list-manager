@@ -18,6 +18,8 @@ function agregar() {
     drawRoulette ();
     
 }
+
+
 function reset() {
     array_concursantes.length = 0;
     drawRoulette(); 
@@ -108,3 +110,4 @@ function random_color(){
     
     return color;
   };
+  export { random_color };
