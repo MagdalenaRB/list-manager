@@ -7,6 +7,9 @@ You can manage your lists easily
 
 ![image](https://user-images.githubusercontent.com/117833691/211201304-e2197319-3eeb-4166-97d5-06f445344cc4.png)
 
+Try your luck in our roulette
+
+![image](https://user-images.githubusercontent.com/117833691/211201868-2a462e44-01d3-4ac4-9bdc-8f5a85de0172.png)
 
 
 # 👩🏻‍🔬 Testing with Jest
